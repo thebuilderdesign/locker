@@ -1,0 +1,23 @@
+#notistack-snackbar {
+    max-width: 400px;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+#app-root {
+    width: 100%;
+    height: 100%;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.skelton {
+    flex-grow: 1;
+
+    span {
+        border-radius: 4px;
+        width: 100%;
+    }
+}   
